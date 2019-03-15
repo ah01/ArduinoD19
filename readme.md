@@ -74,10 +74,10 @@ Příklady:
 * Spuštění Unit testů na CI prostředí
 * Uložení artefaktů (*.hex, *.elf)
 
+Ukázka:
 
 * https://github.com/bastlirna/esp8266-board-hal
-* https://github.com/bastlirna/esp8266-board-app
-
+* https://github.com/ah01/pio-advanced-sample
 
 -----
 
