@@ -18,6 +18,13 @@ Podklady pro přednášku z [Arduino Day 2019](http://robodoupe.cz/2019/arduino-
 
 ![SDLC](doc/img/sdlc.jpg)
 
+-----
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ah01/ArduinoD19/master/doc/img/sdlc.jpg">
+</p>
+
+
+----
 
 
