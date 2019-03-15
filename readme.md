@@ -18,13 +18,29 @@ Podklady pro přednášku z [Arduino Day 2019](http://robodoupe.cz/2019/arduino-
 
 ![SDLC](doc/img/sdlc.jpg)
 
------
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ah01/ArduinoD19/master/doc/img/sdlc.jpg">
-</p>
+------
 
+## Verzování (nejen) zdrojového kódu
 
-----
+### Proč?
+
+* historie
+* cooperace
+* single point of true
+* branches
+* zaloha
+
+### github (i pro sdileni projektu)
+
+* nejen verzovaci system ale i sw lifetime mgmt.
+* ukazka projektu
+
+### Tipy
+
+* vsechny zavislosti musi byt verzovane nebo explicitne uvedene (napr. verze knihovny v platformio.ini)
+* Primarne se verzuje zdrojovy kod (tooling je na to navrzeny) ale obecne vse co je potreba k sestaveni artefaktu
+* Knihovny a ext. zavislosti neverzovat pokud jsou dostupne pres uloziste (repozitory) ktere verzovani umoznuje (pio lib library), v opacnem pripade radeji verzovat kopii nez *googlem*
+
 
 
