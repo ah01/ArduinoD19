@@ -48,6 +48,7 @@ Příklady:
 * Všechny závislosti musí byt verzované nebo explicitně uvedené (např. verze knihoven)
 * Primárně se verzuje zdrojový kód (text), ale obecně vše co je potřeba k sestaveni artefaktu
 * Knihovny a ext. závislosti neverzovat pokud jsou dostupné pres uložiště (repozitory), které verzovani umožňuje (pio lib), v opačném případě raději verzovat kopii než googlem
+* To co je v gitu by mělo stačit pro build
 
 -----
 
@@ -55,6 +56,8 @@ Příklady:
 
 * https://github.com/bastlirna/esp8266-board-hal
 * https://github.com/bastlirna/esp8266-board-app
+
+💡 [PlatformIO](https://platformio.org/)
 
 -----
 
@@ -66,8 +69,15 @@ Příklady:
 
 ## Continuous Integration
 
+* Build po každém commitu
+* Build pro všechny prostředí, načisto
+* Spuštění Unit testů na CI prostředí
+* Uložení artefaktů (*.hex, *.elf)
+
+
 * https://github.com/bastlirna/esp8266-board-hal
 * https://github.com/bastlirna/esp8266-board-app
+
 
 -----
 
